@@ -1,0 +1,1 @@
+[Nginx+Tomcat搭建集群，Spring Session+Redis实现Session共享](http://blog.csdn.net/u012702547/article/details/72991283?utm_source=tuicool)
