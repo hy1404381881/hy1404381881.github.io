@@ -5,4 +5,4 @@
 
 - [RabbitMq学习](https://github.com/hy1404381881/hy1404381881.github.io/blob/master/RabbitMQ/RabbitMQ.md)
 
-- [Nginx+Tomcat搭建集群，Spring Session+Redis实现Session共享](http://blog.csdn.net/u012702547/article/details/72991283?utm_source=tuicool)
+- [Nginx+Tomcat搭建集群，Spring Session+Redis实现Session共享](https://github.com/hy1404381881/hy1404381881.github.io/blob/master/Nginx%2BTomcat%E6%90%AD%E5%BB%BA%E9%9B%86%E7%BE%A4%EF%BC%8CSpring%20Session%2BRedis%E5%AE%9E%E7%8E%B0Session%E5%85%B1%E4%BA%AB/Nginx%2BRedis%2BTomcat%E5%AE%9E%E7%8E%B0%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E5%92%8CSession%E5%85%B1%E4%BA%AB.md)
