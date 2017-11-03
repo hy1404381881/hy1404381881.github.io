@@ -17,3 +17,5 @@
 - [Mybatis](https://github.com/hy1404381881/hy1404381881.github.io/blob/master/MyBatis/MyBatis.md)
 
 - [Spring Security](https://github.com/hy1404381881/hy1404381881.github.io/blob/master/Spring%20Security/Spring%20Security.md)
+
+-[Spring mvc自定义异常处理 ,Restful自定义异常处理]()
