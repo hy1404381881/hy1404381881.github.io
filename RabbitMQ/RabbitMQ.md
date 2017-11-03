@@ -7,3 +7,6 @@
 [RabbitMQ （四） 路由选择 (Routing)](http://blog.csdn.net/lmj623565791/article/details/37669573)
 
 [RabbitMQ （五）主题（Topic）](http://blog.csdn.net/lmj623565791/article/details/37706355)
+
+----------
+- [RabbitMQ spring系列](http://www.cnblogs.com/4----/p/6518801.html)
