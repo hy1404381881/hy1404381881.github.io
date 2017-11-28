@@ -6,4 +6,6 @@
   -[Spring MVC REST异常处理最佳实践（上）](http://www.importnew.com/21278.html)
   
   -[Spring MVC REST异常处理最佳实践（下）](http://www.importnew.com/21280.html)
+  
+  -[springmvc 通过异常增强返回给客户端统一格式](https://www.cnblogs.com/nosqlcoco/p/5562107.html)
  
