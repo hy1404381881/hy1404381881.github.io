@@ -28,12 +28,13 @@ public class PrimeGenerator implements Runnable {
             p = p.nextProbablePrime();
             synchronized (this) {
                 primes.add(p);
+               /* System.out.println(p.intValue());*/
             }
         }
     }
 
     public void cancel() {
-        cancelled = true;
+        //cancelled = true;
     }
 
     public synchronized List<BigInteger> get() {
@@ -42,7 +43,10 @@ public class PrimeGenerator implements Runnable {
 
     static List<BigInteger> aSecondOfPrimes() throws InterruptedException {
         PrimeGenerator generator = new PrimeGenerator();
+        System.out.println(exec.hashCode());
         exec.execute(generator);
+        System.out.println(generator.hashCode());
+        System.out.println();
         try {
             SECONDS.sleep(1);
         } finally {
@@ -50,4 +54,12 @@ public class PrimeGenerator implements Runnable {
         }
         return generator.get();
     }
+    public static void main(String[] args) throws InterruptedException {
+    	for(int i=0;i<10;i++) {
+    		
+    		PrimeGenerator.aSecondOfPrimes();
+    	}
+    	
+    	
+	}
 }
