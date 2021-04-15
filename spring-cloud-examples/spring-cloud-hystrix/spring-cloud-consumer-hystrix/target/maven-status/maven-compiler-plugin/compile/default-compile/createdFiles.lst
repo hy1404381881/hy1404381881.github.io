@@ -1,0 +1,4 @@
+com\neo\remote\HelloRemoteHystrix.class
+com\neo\controller\ConsumerController.class
+com\neo\remote\HelloRemote.class
+com\neo\ConsumerApplication.class
