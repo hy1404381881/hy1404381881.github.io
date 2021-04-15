@@ -1,0 +1,6 @@
+E:\workspace_self\project-parent\file\myproject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\workspace_self\project-parent\file\myproject\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\workspace_self\project-parent\file\myproject\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\workspace_self\project-parent\file\myproject\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\workspace_self\project-parent\file\myproject\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\workspace_self\project-parent\file\myproject\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

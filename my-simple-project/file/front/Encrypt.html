@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>模板页面</title>
+  <meta name="keywords" content="页面关键字">
+  <meta name="description" content="页面内容">
+  <link href="css/test.css" rel="stylesheet">
+  <script src="js/jquery/jquery-3.3.1.min.js"></script>
+  <script src="js/md5.js"></script>
+  <script src="js/base64.js"></script>
+  <link type="image/png" href="images/favicon.png" rel="shortcut icon">
+</head>
+
+<body>
+  <h1>加密测试</h1>
+  <script>
+    function enCrypt(objParam) {
+      var SYS_KEY = "3A3KHDSDS";
+      function keysrt(key, desc) {
+        return function (a, b) {
+          return desc ? (a[key] < b[key]) : (a[key] > b[key]);
+        }
+      }
+      function myTrim(x) {
+        return x.replace(/^\s+|\s+$/gm, '');
+      }
+      var propArray = [];
+      for (let i in objParam) {
+        if (i != "sig") {
+          objParam[i] = !!objParam[i] ? myTrim(Base64.encode(objParam[i])) : "";
+          var obj = {
+            key: i,
+            value: objParam[i]
+          }
+          propArray.push(obj);
+
+        }
+      }
+      propArray.sort(keysrt('key', false));
+      var key_origin = "";
+      var arrLength = propArray.length;
+      for (var i = 0; i < arrLength; i++) {
+        key_origin = key_origin + propArray[i].key + propArray[i].value;
+      }
+      key_origin = myTrim(key_origin + SYS_KEY);
+      var key = myTrim(hex_md5(key_origin)).replace(" ", "+");
+      objParam.sig = key;
+      return objParam;
+    }
+    $(function () {
+      var requestParam = {
+        "page_size": "15",
+        "current_page": "1",
+        "sig": ""
+      }
+      requestParam = enCrypt(requestParam);
+    })
+  </script>
+</body>
+</html>

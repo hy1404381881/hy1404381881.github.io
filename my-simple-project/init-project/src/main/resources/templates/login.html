@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<script type="text/javascript"
+	th:src="@{/static/js/jquery/jquery-3.3.1.min.js}"></script>
+
+</head>
+<body>
+	<h3>Login</h3>
+	<div>
+	<div>
+	   <span>用户名：</span><input type="text" name="loginName" value="21"/>
+	</div>
+	<div>
+	   <span>密码：</span><input type="text" name="password" value="21"/>
+	</div>
+	<div>
+	<button id="send">登陆</button>
+	</div>
+	</div>
+	<script th:inline="javascript" type="text/javascript">
+		$(function() {
+			$('#send').click(function() {
+				$.ajax({
+					type : "post",
+					url : "/login",
+					data : {
+						loginName : $("input[name='loginName']").val(),
+						password : $("input[name='password']").val()
+					},
+					dataType : "json",
+					success : function(data) {
+
+					}
+				});
+			});
+		});
+	</script>
+</body>
+</html>

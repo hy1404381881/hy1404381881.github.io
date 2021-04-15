@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lizy.share.mapper.UserMapper">
+	<resultMap id="BaseResultMap"
+		type="com.lizy.share.entity.User">
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<result column="login_name" jdbcType="VARCHAR"
+			property="loginName" />
+		<result column="name" jdbcType="VARCHAR" property="name" />
+		<result column="mobile" jdbcType="VARCHAR" property="mobile" />
+		<result column="password" jdbcType="VARCHAR"
+			property="password" />
+		<result column="remark" jdbcType="VARCHAR" property="remark" />
+		<result column="create_time" jdbcType="BIGINT"
+			property="createTime" />
+		<result column="update_time" jdbcType="BIGINT"
+			property="updateTime" />
+		<result column="login_time" jdbcType="BIGINT"
+			property="loginTime" />
+		<result column="is_del" jdbcType="TINYINT" property="isDel" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		id, login_name, name, mobile, password, remark,
+		create_time, update_time,
+		login_time,
+		is_del
+	</sql>
+	<select id="selectByPrimaryKey"
+		parameterType="java.lang.Integer" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from sys_user
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+	<delete id="deleteByPrimaryKey"
+		parameterType="java.lang.Integer">
+		delete from sys_user
+		where id = #{id,jdbcType=INTEGER}
+	</delete>
+	<insert id="insert" parameterType="com.lizy.share.entity.User">
+		insert into sys_user (id,
+		login_name, name,
+		mobile, password, remark,
+		create_time, update_time,
+		login_time,
+		is_del)
+		values (#{id,jdbcType=INTEGER},
+		#{loginName,jdbcType=VARCHAR},
+		#{name,jdbcType=VARCHAR},
+		#{mobile,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+		#{remark,jdbcType=VARCHAR},
+		#{createTime,jdbcType=BIGINT},
+		#{updateTime,jdbcType=BIGINT},
+		#{loginTime,jdbcType=BIGINT},
+		#{isDel,jdbcType=TINYINT})
+	</insert>
+	<insert id="insertSelective"
+		parameterType="com.lizy.share.entity.User">
+		insert into sys_user
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				id,
+			</if>
+			<if test="loginName != null">
+				login_name,
+			</if>
+			<if test="name != null">
+				name,
+			</if>
+			<if test="mobile != null">
+				mobile,
+			</if>
+			<if test="password != null">
+				password,
+			</if>
+			<if test="remark != null">
+				remark,
+			</if>
+			<if test="createTime != null">
+				create_time,
+			</if>
+			<if test="updateTime != null">
+				update_time,
+			</if>
+			<if test="loginTime != null">
+				login_time,
+			</if>
+			<if test="isDel != null">
+				is_del,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INTEGER},
+			</if>
+			<if test="loginName != null">
+				#{loginName,jdbcType=VARCHAR},
+			</if>
+			<if test="name != null">
+				#{name,jdbcType=VARCHAR},
+			</if>
+			<if test="mobile != null">
+				#{mobile,jdbcType=VARCHAR},
+			</if>
+			<if test="password != null">
+				#{password,jdbcType=VARCHAR},
+			</if>
+			<if test="remark != null">
+				#{remark,jdbcType=VARCHAR},
+			</if>
+			<if test="createTime != null">
+				#{createTime,jdbcType=BIGINT},
+			</if>
+			<if test="updateTime != null">
+				#{updateTime,jdbcType=BIGINT},
+			</if>
+			<if test="loginTime != null">
+				#{loginTime,jdbcType=BIGINT},
+			</if>
+			<if test="isDel != null">
+				#{isDel,jdbcType=TINYINT},
+			</if>
+		</trim>
+	</insert>
+	<update id="updateByPrimaryKeySelective"
+		parameterType="com.lizy.share.entity.User">
+		update sys_user
+		<set>
+			<if test="loginName != null">
+				login_name = #{loginName,jdbcType=VARCHAR},
+			</if>
+			<if test="name != null">
+				name = #{name,jdbcType=VARCHAR},
+			</if>
+			<if test="mobile != null">
+				mobile = #{mobile,jdbcType=VARCHAR},
+			</if>
+			<if test="password != null">
+				password = #{password,jdbcType=VARCHAR},
+			</if>
+			<if test="remark != null">
+				remark = #{remark,jdbcType=VARCHAR},
+			</if>
+			<if test="createTime != null">
+				create_time = #{createTime,jdbcType=BIGINT},
+			</if>
+			<if test="updateTime != null">
+				update_time = #{updateTime,jdbcType=BIGINT},
+			</if>
+			<if test="loginTime != null">
+				login_time = #{loginTime,jdbcType=BIGINT},
+			</if>
+			<if test="isDel != null">
+				is_del = #{isDel,jdbcType=TINYINT},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+	<update id="updateByPrimaryKey"
+		parameterType="com.lizy.share.entity.User">
+		update sys_user
+		set login_name =
+		#{loginName,jdbcType=VARCHAR},
+		name = #{name,jdbcType=VARCHAR},
+		mobile =
+		#{mobile,jdbcType=VARCHAR},
+		password = #{password,jdbcType=VARCHAR},
+		remark = #{remark,jdbcType=VARCHAR},
+		create_time =
+		#{createTime,jdbcType=BIGINT},
+		update_time =
+		#{updateTime,jdbcType=BIGINT},
+		login_time =
+		#{loginTime,jdbcType=BIGINT},
+		is_del = #{isDel,jdbcType=TINYINT}
+		where
+		id = #{id,jdbcType=INTEGER}
+	</update>
+	<resultMap id="UserAndRoles" type="User">
+		<id column="id" property="id" />
+		<result column="mobile" property="mobile" />
+		<collection property="roles" ofType="Role">
+			<id column="role_id" property="id" />
+			<result column="role_name" property="name" />
+		</collection>
+	</resultMap>
+	<!-- 根据手机号和密码获取用户信息 和角色信息 -->
+	<select id="getUserAndRolesByLoginNameAndPassword"
+		parameterType="User" resultMap="UserAndRoles">
+		SELECT
+		a1.id,
+		a1.mobile,
+		a1.login_name,
+		a3.id AS role_id,
+		a3.`name` AS role_name
+		FROM
+		sys_user a1
+		INNER JOIN
+		sys_user_role a2 ON a1.id = a2.user_id
+		INNER JOIN
+		sys_role a3 ON
+		a2.role_id = a3.id
+		WHERE
+		a1.login_name = #{loginName}
+		AND a1.`password` =
+		#{password}
+		AND a1.is_del = 0
+		AND
+		a3.is_del = 0
+	</select>
+	<!-- 根据登录名获取用户信息 和角色信息 -->
+	<select id="getUserAndRolesByLoginName" parameterType="User"
+		resultMap="UserAndRoles">
+		SELECT
+		a1.id,
+		a1.mobile,
+		a1.login_name,
+		a3.id AS role_id,
+		a3.`name` AS role_name
+		FROM
+		sys_user a1
+		INNER JOIN sys_user_role a2 ON
+		a1.id = a2.user_id
+		INNER JOIN
+		sys_role a3 ON a2.role_id = a3.id
+		WHERE
+		a1.login_name = #{loginName}
+		AND a1.is_del = 0
+		AND a3.is_del = 0
+	</select>
+	<!-- 根据手机号信息，获取用户信息 -->
+	<select id="getUserByMobile" resultType="User">
+		select id,mobile from
+		sys_user where mobile=#{mobile} and is_del=0
+
+	</select>
+	<!-- 根据登录名信息，获取用户信息 -->
+	<select id="getUserByLoginName" resultType="User">
+		select
+		id,login_name,password from sys_user where login_name=#{loginName}
+		and
+		is_del=0
+
+	</select>
+	<!-- 根据用户信息，获取权限信息 -->
+	<select id="getPermissionByUser" parameterType="User"
+		resultType="Permission">
+		SELECT
+		a3.id,a3.`name`,a3.parent_id,a3.parent_ids,a3.url,a3.css,a3.sort
+		FROM
+		sys_user_role a1
+		INNER JOIN sys_role_permission a2 ON a1.role_id =
+		a2.role_id
+		INNER JOIN sys_permission a3 ON a2.permission_id = a3.id
+		WHERE
+		a1.user_id = #{id}
+		AND a1.is_del = 0
+		AND a2.is_del = 0
+		AND a3.is_del
+		= 0
+		and a3.resiurce_type='menu'
+		order by a3.sort desc
+	</select>
+	<!-- 分页获取user表数据 -->
+	<select id="selectPagedData" resultType="User">
+		select id,login_name,name,mobile,remark,create_time,update_time from
+		sys_user
+		<where>
+			<if test="loginName!=null and loginName!=''">
+				login_name like CONCAT('%',#{loginName},'%')
+			</if>
+			<if test="name!=null and name!=''">
+				and name like CONCAT('%',#{name},'%')
+			</if>
+			<if test="mobile!=null and mobile!=''">
+				and mobile like CONCAT('%',#{mobile},'%')
+			</if>
+			and is_del=0
+		</where>
+		order by update_time desc
+		limit #{offset},#{limit}
+	</select>
+	<!-- 获取用户的总数量 -->
+	<select id="selectPagedDataNum" resultType="java.lang.Integer">
+		select count(id) from
+		sys_user
+		<where>
+			<if test="loginName!=null and loginName!=''">
+				login_name like CONCAT('%',#{loginName},'%')
+			</if>
+			<if test="name!=null and name!=''">
+				and name like CONCAT('%',#{name},'%')
+			</if>
+			<if test="mobile!=null and mobile!=''">
+				and mobile like CONCAT('%',#{mobile},'%')
+			</if>
+			and is_del=0
+		</where>
+	</select>
+	<!-- 依据登录名、姓名和手机号查询用户信息 -->
+	<select id="selectByUser" resultType="User">
+		select login_name,name,mobile,remark,create_time,update_time from
+		sys_user
+		<where>
+			<if	test="(loginName!=null and loginName!='')  or (name!=null and name!='') or (mobile!=null and mobile!='')">
+				(
+				<trim prefixOverrides="and|or">
+					<if test="loginName!=null and loginName!=''">
+						login_name =#{loginName}
+					</if>
+					<if test="name!=null and name!=''">
+						or name like CONCAT('%',#{name},'%')
+					</if>
+					<if test="mobile!=null and mobile!=''">
+						and mobile like CONCAT('%',#{mobile},'%')
+					</if>
+				</trim>
+				)
+			</if>
+			and is_del=0
+		</where>
+	</select>
+</mapper>
