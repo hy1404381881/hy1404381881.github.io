@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bbc6304-9cce-4772-b57b-8d7476f718a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/eureka-producer-consumer/spring-cloud-eureka/spring-cloud-eureka (4).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/eureka-producer-consumer/spring-cloud-producer/spring-cloud-producer (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/eureka-producer-consumer/spring-cloud-producer2/spring-cloud-producer (4).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/gateway-service-zuul-eureka/gateway-service-zuul-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/gateway-service-zuul-simple/gateway-service-zuul-simple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/spring-cloud-eureka/spring-cloud-eureka (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/spring-cloud-parent (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/spring-cloud-producer-2/spring-cloud-producer-2 (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/spring-cloud-producer/spring-cloud-producer (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/hystrix-dashboard-turbine/hystrix-dashboard-turbine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-hystrix-dashboard/spring-cloud-consumer-hystrix-dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-node1/spring-cloud-consumer-node1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-node2/spring-cloud-consumer-node2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-eureka/spring-cloud-eureka (6).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-eureka/spring-cloud-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-producer/spring-cloud-producer (6).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-producer/spring-cloud-producer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-boot-admin-eureka/spring-boot-admin-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-boot-admin-eureka/spring-boot-admin-server/spring-boot-admin-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-boot-admin-eureka/spring-cloud-eureka/spring-cloud-eureka (5).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-boot-admin-eureka/spring-cloud-producer-2/spring-cloud-producer-2 (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-boot-admin-eureka/spring-cloud-producer/spring-cloud-producer (5).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka-bus/spring-cloud-config-client/spring-cloud-config-client (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka-bus/spring-cloud-config-server/spring-cloud-config-server (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka-bus/spring-cloud-eureka/spring-cloud-eureka (9).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka/spring-cloud-config-client/spring-cloud-config-client (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka/spring-cloud-config-server/spring-cloud-config-server (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka/spring-cloud-eureka/spring-cloud-eureka (7).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-client/spring-cloud-config-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-server/spring-cloud-config-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-svn-refresh/spring-cloud-config-client-refresh/spring-cloud-config-client-refresh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-svn-refresh/spring-cloud-config-client/spring-cloud-config-client (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-svn-refresh/spring-cloud-config-server/spring-cloud-config-server (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-consul/spring-cloud-consul-consumer/spring-cloud-consul-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-consul/spring-cloud-consul-producer-2/spring-cloud-consul-producer-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-consul/spring-cloud-consul-producer/spring-cloud-consul-producer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-eureka/spring-cloud-eureka/spring-cloud-eureka (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-gateway/cloud-gateway-eureka/cloud-gateway-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-gateway/cloud-gateway/cloud-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-gateway/spring-cloud-eureka/spring-cloud-eureka (1) (org.springframework.boot).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-gateway/spring-cloud-producer-1/spring-cloud-producer-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-gateway/spring-cloud-producer/spring-cloud-producer (1) (org.springframework.boot).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-hystrix/spring-cloud-eureka/spring-cloud-eureka (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-hystrix/spring-cloud-producer/spring-cloud-producer (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-sleuth-zipkin/spring-cloud-eureka/spring-cloud-eureka (8).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-sleuth-zipkin/spring-cloud-parent (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-sleuth-zipkin/spring-cloud-producer/spring-cloud-producer (7).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-sleuth-zipkin/spring-cloud-zuul/spring-cloud-zuul (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-sleuth-zipkin/zipkin-server/zipkin-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-zuul/spring-cloud-eureka/spring-cloud-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-zuul/spring-cloud-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-zuul/spring-cloud-producer-2/spring-cloud-producer-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-zuul/spring-cloud-producer/spring-cloud-producer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-zuul/spring-cloud-zuul/spring-cloud-zuul.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/spring-cloud-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/.idea/spring-cloud-examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/gateway-service-zuul-simple/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/gateway-service-zuul-simple/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/spring-cloud-producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/gateway-service-zuul/spring-cloud-producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/hystrix-dashboard-turbine/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/hystrix-dashboard-turbine/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-hystrix-dashboard/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-hystrix-dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-node1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-node1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-node2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/hystrix-dashboard-turbine/spring-cloud-consumer-node2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka/spring-cloud-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-eureka/spring-cloud-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-client/src/main/java/com/neo/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-client/src/main/java/com/neo/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-git/spring-cloud-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-svn-refresh/spring-cloud-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-examples/spring-cloud-config-svn-refresh/spring-cloud-config-server/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/CompositePattern">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaDesignPattern" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaDesignPattern" type="f1a62948:ProjectNode" />
+                <item name="CompositePattern" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaDesignPattern" type="f1a62948:ProjectNode" />
+                <item name="CompositePattern" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1rVIWtk3Xp0oOSCRUvgQYVxcnTr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.35201573" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jasongj.client.Client1" />
+      <module name="JavaDesignPattern.CompositePattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jasongj.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bbc6304-9cce-4772-b57b-8d7476f718a6" name="Default Changelist" comment="" />
+      <created>1619054865539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619054865539</updated>
+      <workItem from="1619054868079" duration="445000" />
+      <workItem from="1619055332323" duration="4875000" />
+      <workItem from="1619156980309" duration="362000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ObserverPattern/src/main/java/com/jasongj/client/Client1.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CompositePattern/src/main/java/com/jasongj/client/Client1.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CompositePattern/src/main/java/com/jasongj/client/Client1.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CompositePattern/src/main/java/com/jasongj/client/Client1.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
