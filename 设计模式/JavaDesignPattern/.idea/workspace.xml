@@ -143,7 +143,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-cloud-examples" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.35201573" />
@@ -179,7 +179,7 @@
       <updated>1619054865539</updated>
       <workItem from="1619054868079" duration="445000" />
       <workItem from="1619055332323" duration="4875000" />
-      <workItem from="1619156980309" duration="362000" />
+      <workItem from="1619156980309" duration="1050000" />
     </task>
     <servers />
   </component>
