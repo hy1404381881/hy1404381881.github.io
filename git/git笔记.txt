@@ -1,0 +1,2 @@
+查看分支的柱树状结构图：
+git log --graph --decorate --oneline --simplify-by-decoration --all
