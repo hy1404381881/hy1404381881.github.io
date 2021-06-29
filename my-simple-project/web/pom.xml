@@ -67,7 +67,7 @@
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-spring</artifactId>
-			<version>1.4.0</version>
+			<version>1.7.0</version>
 		</dependency>
 
 		<!-- 热部署,添加此备注可能影响redis缓存的反序列化，具体见网址：https://www.jianshu.com/p/b7635b08a6ce?utm_source=oschina-app -->
