@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f8289a7c-1cef-4df5-97b3-c061c2f3ba56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/main/java/com/lizy/swagger/SwaggerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/test/java/com/lizy/swagger/SwaggerApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/swagger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/书籍笔记/Think-In-Java/examples" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,13 +44,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,6 +72,7 @@
       <workItem from="1621329981478" duration="2508000" />
       <workItem from="1621410265339" duration="705000" />
       <workItem from="1624602796344" duration="743000" />
+      <workItem from="1624931445322" duration="238000" />
     </task>
     <servers />
   </component>
